@@ -1,4 +1,4 @@
-# CurrencyConverterQt v0.1 — In Progress
+# CurrencyConverterQt v0.1 — Completed
 
 **Status:** Learning / demo project.  
 **Stack:** C++17, Qt Widgets + Qt Charts, libcurl (HTTP), JSON parse.
