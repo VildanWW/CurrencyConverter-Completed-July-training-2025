@@ -130,15 +130,14 @@ void QtWidgetsApplication1::updateCurrencyRates() {
         ui.comboTo->addItem(itemText);
     }
 
-    // ✅ Установим валюты по умолчанию
+    //Установим валюты по умолчанию
     int idxFrom = ui.comboFrom->findText("USD");
     if (idxFrom >= 0) ui.comboFrom->setCurrentIndex(idxFrom);
 
     int idxTo = ui.comboTo->findText("EUR");
     if (idxTo >= 0) ui.comboTo->setCurrentIndex(idxTo);
 
-    // ✅ Вызовем showChart() теперь, когда есть значения
-    /*showChart();*/
+    
 }
 
 
